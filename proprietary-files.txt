@@ -1,0 +1,104 @@
+# Executable files
+bin/hci_qcomm_init
+bin/mm-qcamera-daemon
+bin/mpdecision
+bin/netmgrd
+bin/rmt_storage
+bin/qmuxd
+bin/thermald
+bin/time_daemon
+bin/cnd
+bin/bridgemgrd
+bin/port-bridge
+bin/qmiproxy
+bin/quipc_igsn
+bin/quipc_main
+bin/ATFWD-daemon
+bin/hdmid
+bin/mm-pp-daemon
+bin/rild
+bin/gsiff_daemon
+bin/qseecomd
+
+# Audio
+lib/libacdbloader.so
+lib/libaudcal.so
+
+# Camera
+lib/libchromatix_imx074_default_video.so
+lib/libchromatix_imx074_preview.so
+lib/libchromatix_imx074_video_hd.so
+lib/libchromatix_imx074_zsl.so
+lib/libchromatix_imx091_default_video.so
+lib/libchromatix_imx091_preview.so
+lib/libchromatix_imx091_video_hd.so
+lib/libchromatix_ov2720_default_video.so
+lib/libchromatix_ov2720_preview.so
+lib/libchromatix_s5k3l1yx_default_video.so
+lib/libchromatix_s5k3l1yx_hfr_120fps.so
+lib/libchromatix_s5k3l1yx_hfr_60fps.so
+lib/libchromatix_s5k3l1yx_hfr_90fps.so
+lib/libchromatix_s5k3l1yx_preview.so
+lib/libchromatix_s5k3l1yx_video_hd.so
+lib/libchromatix_s5k3l1yx_zsl.so
+lib/libchromatix_s5k4e5_default_video.so
+lib/libchromatix_s5k4e5_preview.so
+lib/hw/camera.msm8960.so
+lib/libcamera_client.so
+lib/libgemini.so
+lib/libmmcamera_faceproc.so
+lib/libmmcamera_frameproc.so
+lib/libmmcamera_statsproc30.so
+lib/libmmipl.so
+lib/libmmjpeg.so
+lib/liboemcamera.so
+lib/libimage-jpeg-enc-omx-comp.so
+lib/libimage-omx-common.so
+lib/libmmosal.so
+lib/libmmparser.so
+lib/libmmstillomx.so
+lib/libDivxDrm.so
+
+# Misc libraries
+lib/libmm-color-convertor.so
+
+# Qualcomm common libs
+lib/libdiag.so
+lib/libdsi_netctrl.so
+lib/libdsutils.so
+lib/libidl.so
+lib/libqdi.so
+lib/libqdp.so
+lib/libqmi.so
+lib/libqmi_cci.so
+lib/libqmi_common_so.so
+lib/libqmi_csi.so
+lib/libqmi_encdec.so
+lib/libqmiservices.so
+
+# Radio
+lib/libnetmgr.so
+lib/libqc-opt.so
+lib/libril-qc-qmi-1.so
+lib/libril-qcril-hook-oem.so
+lib/libril.so
+
+# Sensors
+lib/hw/sensors.msm8960.so
+lib/libsensor_reg.so
+lib/libyas530.so
+
+# GPS
+lib/hw/gps.default.so
+lib/libgps.so
+lib/libgps.utils.so
+lib/libloc_adapter.so
+lib/libloc_api_v02.so
+lib/libloc_eng.so
+lib/libloc_ext.so
+
+# Light
+lib/hw/lights.msm8960.so
+
+# NFC
+lib/hw/nfc.default.so

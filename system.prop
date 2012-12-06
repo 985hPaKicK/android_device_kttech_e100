@@ -1,0 +1,155 @@
+#
+# system.prop for ef44s
+#
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+#ro.telephony.ril_class=QualcommSharedRIL
+ro.telephony.ril.v3=qcomuiccstack
+ro.vendor.extension_library=/system/lib/libqc-opt.so
+ro.baseband.arch=msm
+ro.config.lte=true
+ro.telephony.default_network=9
+telephony.lteOnGsmDevice=1
+ro.ril.shutdown=true
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.config.ehrpd=true
+ro.config.svlte1x=true
+
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+ril.subscription.types=NV,RUIM
+DEVICE_PROVISIONED=1
+debug.sf.hw=1
+debug.egl.hw=1
+debug.composition.type=dyn
+ro.sf.compbypass.enable=1
+dev.pm.dyn_samplingrate=1
+
+ro.sf.lcd_density=320
+persist.sys.usb.config=mass_storage,adb
+
+# Softkey
+# 0 = enable, 1 = disable
+#qemu.hw.mainkeys=1
+
+#
+# system props for the cne module
+#
+# KTTECH persist.cne.UseCne=vendor
+persist.cne.UseCne=none
+persist.cne.UseSwim=false
+persist.cne.bat.range.low.med=30
+persist.cne.bat.range.med.high=60
+persist.cne.loc.policy.op=/system/etc/OperatorPolicy.xml
+persist.cne.loc.policy.user=/system/etc/UserPolicy.xml
+persist.cne.bwbased.rat.sel=false
+persist.cne.snsr.based.rat.mgt=false
+persist.cne.bat.based.rat.mgt=false
+persist.cne.rat.acq.time.out=30000
+persist.cne.rat.acq.retry.tout=0
+persist.cne.nsrm.mode=false
+
+# KTTECH ro.hdmi.enable=true
+ro.hdmi.enable=false
+
+#system props for the MM modules
+
+media.stagefright.enable-player=true
+media.stagefright.enable-http=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-scan=true
+#
+# system props for the data modules
+#
+ro.use_data_netmgrd=true
+
+#system props for time-services
+persist.timed.enable=true
+
+# System props for audio
+persist.audio.fluence.mode=endfire
+persist.audio.vr.enable=false
+# persist.audio.handset.mic=digital
+# KTTECH_SOUND O7_DEFINE // kuzuri-sound
+persist.audio.handset.mic=analog
+
+# System prop to select audio resampler quality
+af.resampler.quality=255
+
+#
+# system prop for opengles version
+#
+# 131072 is decimal for 0x20000 to report version 2
+ro.opengles.version=131072
+
+#
+# system prop for Bluetooth Dialup Networking
+#
+# BY MKJI 2012.04.25 modify dun
+#ro.qualcomm.bluetooth.dun=true
+ro.qualcomm.bluetooth.dun=false
+
+#
+# system prop for Bluetooth SAP Profile
+# BY MKJI 2012.04.25 modify sap
+#ro.qualcomm.bluetooth.sap=true
+ro.qualcomm.bluetooth.sap=false
+# system prop for Bluetooth FTP profile
+# BY MKJI 2012.04.25 modify ftp
+#ro.qualcomm.bluetooth.ftp=true
+ro.qualcomm.bluetooth.ftp=false
+#
+# system property for Bluetooth Handsfree Profile version
+#
+ro.bluetooth.hfp.ver=1.6
+#
+# BY MKJI 2012.04.25 add map property false
+ro.qualcomm.bluetooth.map = false
+#
+#system prop for Bluetooth hci transport
+ro.qualcomm.bt.hci_transport=smd
+#
+# system prop for requesting Master role in incoming Bluetooth connection.
+#
+ro.bluetooth.request.master=true
+#
+# system prop for Bluetooth Auto connect for remote initated connections
+#
+ro.bluetooth.remote.autoconnect=true
+# system property for Bluetooth discoverability time out in seconds
+# 0: Always discoverable
+#debug.bt.discoverable_time=0
+
+#system prop for switching gps driver to qmi
+persist.gps.qmienabled=true
+
+# System property for cabl
+ro.qualcomm.cabl=1
+# [START] kttech diplay : jykim
+hw.cabl.level=2
+# [END]
+
+#
+# System prop for sending transmit power request to RIL during WiFi hotspot on/off
+#
+ro.ril.transmitpower=true
+
+#
+#Simulate sdcard on /data/media
+#
+persist.fuse_sdcard=false
+ro.hwui.text_cache_width=2048
+
+wifi.interface=wlan0
+dalvik.vm.dexopt-data-only=1
+ro.nfc.port=I2C
