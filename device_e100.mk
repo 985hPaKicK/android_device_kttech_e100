@@ -154,6 +154,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/kttech/e100/keylayout/keypad_8960.kl:system/usr/keylayout/keypad_8960.kl \
     device/kttech/e100/keylayout/melfas-ts.kl:system/usr/keylayout/melfas-ts.kl \
+    device/kttech/e100/keylayout/Button_Jack.kl:system/usr/keylayout/Button_Jack.kl
 
 # Input device config
 PRODUCT_COPY_FILES += \
