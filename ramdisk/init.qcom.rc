@@ -420,12 +420,6 @@ service qcom-wifi /system/bin/sh /system/etc/init.qcom.wifi.sh
 on property:sys.boot_completed=1
     start qcom-post-boot
 
-service atfwd /system/bin/ATFWD-daemon
-    class late_start
-    user system
-    group system radio
-    onrestart /system/bin/log -t RIL-ATFWD -p w "ATFWD daemon restarted"
-
 # [START] kttech display : jykim - Turn on CABL by default
 on property:ro.qualcomm.cabl=1
     start ppd
