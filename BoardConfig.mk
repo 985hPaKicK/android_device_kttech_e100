@@ -41,6 +41,9 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 # Bluetooth
 TARGET_CUSTOM_BLUEDROID := ../../../device/kttech/e100/bluetooth/bluetooth.c
 
+# Vibrator
+BOARD_HAS_VIBRATOR_IMPLEMENTATION := ../../device/kttech/e100/vibrator/vibrator.c
+
 # Kernel
 BOARD_KERNEL_BASE := 0x80200000
 BOARD_KERNEL_PAGE_SIZE := 2048
