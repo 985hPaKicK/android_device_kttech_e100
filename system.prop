@@ -1,10 +1,10 @@
 #
-# system.prop for ef44s
+# system.prop for e100
 #
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
-#ro.telephony.ril_class=QualcommSharedRIL
-ro.telephony.ril.v3=qcomuiccstack
+ro.telephony.ril_class=KTTechQualcommRIL
+ro.telephony.ril.v3=qcomuiccstack,skippinpukcount
 ro.vendor.extension_library=/system/lib/libqc-opt.so
 ro.baseband.arch=msm
 ro.config.lte=true

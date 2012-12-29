@@ -189,8 +189,8 @@ PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_LOCALES += ko_KR xhdpi
 
-# MMS fixes
-#FRAMEWORKS_BASE_SUBDIRS += ../../$(LOCAL_PATH)/ril/
+# iccIO fixes
+FRAMEWORKS_BASE_SUBDIRS += ../../$(LOCAL_PATH)/ril/
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/kttech/e100/e100-vendor.mk)
