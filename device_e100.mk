@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
     device/kttech/e100/configs/init.qcom.wifi.sh:/system/etc/init.qcom.wifi.sh \
     device/kttech/e100/configs/camera-permission.sh:/system/etc/camera-permission.sh
 
+# Init.d
+PRODUCT_COPY_FILES += \
+    device/kttech/e100/configs/install-recovery.sh:/system/etc/install-recovery.sh \
+
 # JB firmwares
 PRODUCT_COPY_FILES += \
     device/kttech/e100/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
