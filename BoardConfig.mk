@@ -24,7 +24,7 @@
 # variant, so that it gets overwritten by the parent (which goes
 # against the traditional rules of inheritance).
 
-COMMON_GLOBAL_CFLAGS += -DE100 -DNEED_UMS_ENABLE -DFORCE_CAMERA_PERM_SET
+COMMON_GLOBAL_CFLAGS += -DE100 -DNEED_UMS_ENABLE
 
 # inherit from common msm8960
 -include device/kttech/msm8960-common/BoardConfigCommon.mk

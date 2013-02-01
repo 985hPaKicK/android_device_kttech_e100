@@ -40,8 +40,7 @@ PRODUCT_COPY_FILES += \
     device/kttech/e100/configs/init.qcom.modem_links.sh:/system/etc/init.qcom.modem_links.sh \
     device/kttech/e100/configs/init.qcom.post_boot.sh:/system/etc/init.qcom.post_boot.sh \
     device/kttech/e100/configs/init.qcom.sdio.sh:/system/etc/init.qcom.sdio.sh \
-    device/kttech/e100/configs/init.qcom.wifi.sh:/system/etc/init.qcom.wifi.sh \
-    device/kttech/e100/configs/camera-permission.sh:/system/etc/camera-permission.sh
+    device/kttech/e100/configs/init.qcom.wifi.sh:/system/etc/init.qcom.wifi.sh
 
 # Init.d
 PRODUCT_COPY_FILES += \
